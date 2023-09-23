@@ -1,0 +1,140 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+/*
+element.style{
+    padding: 0;
+    list-style: none;
+}
+*/
+body{
+    padding: 2%;
+}
+#card{
+    width: 600px;
+    height: 400px;
+    /*border: 3px solid red;*/
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35); /*box shadow generator*/
+    border-radius: 5px;
+    overflow: hidden;   /*perfect square*/
+}
+
+#card-top{
+    width: 100%;
+    height: 45%;
+    /*border: 2px solid green;*/
+    padding: 5%;
+}
+
+#card-bot{
+    width: 100%;
+    height: 55%;
+    /*border: 2px solid blue;*/
+    color: white;
+}
+
+#card-bot-left{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /*border: 2px solid orange;*/
+    display: inline-block;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding: 5%;
+}
+#card-bot-right{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /*border: 2px solid black;*/
+    vertical-align: top;
+    background-color: #1ac9c5;
+    padding: 5%;
+}
+
+h2, h4, p{
+    margin: 0;
+}
+
+#card-top h2 {
+    color: #2ab2af;
+    margin-bottom: 15px;
+}
+
+#card-top h4{
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+
+#card-top p{
+    font-size: 90%;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+#card-top p{
+    color: #98a6bd;
+}
+
+button{
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#card-bot-left h4{
+    margin-bottom: 25px;
+}
+
+#price{
+    display: inline-block;
+}
+
+#price-freq{
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+
+#price-container{
+    margin-bottom: 10px;
+}
+
+#card-bot-left p{
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    line-height: 18px;
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: #a9c42d;
+    transform: scale(1.02);
+}
